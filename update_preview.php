@@ -11,7 +11,7 @@
      
     $imageupload = $_SESSION['image'] ;
      
-	if (isset($_POST["button_repair"]))
+    if (isset($_POST["button_repair"]))
 	{
 		header("Location: update.php");
 		exit();

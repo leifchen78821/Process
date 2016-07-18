@@ -12,6 +12,13 @@
 	$result01 = mysql_query($Member01, $link);
 	$row01 = mysql_fetch_assoc($result01);
 	
+    if (isset($_POST["button_changePassword"]))
+    {
+    	header("Location: changepassword.php");
+    	exit();
+    }
+    
+	
 	$Member02 = "select * from UploadFile where Name = '" . $_COOKIE["userName"] . "' order by Time desc ;" ;
 	$result02 = mysql_query($Member02, $link);
 	
@@ -86,7 +93,9 @@
         <div id = "member01" style = "background-image: url(img/memberback.png);">
             <div id = "member01_1">
                 帳號 : <?php echo $row01["Name"] ?><br><br>
-                密碼 : <br><br>
+                <form data-ajax="false" id="form1" name="form1" method="post">密碼 :　
+                            <input type="submit" name="button_changePassword" id="button_changePassword" value="修改密碼" />
+                       </form>
                 性別 : <?php if($row01["Gender"] == 1) : ?>
                         紳士
                        <?php else : ?>
