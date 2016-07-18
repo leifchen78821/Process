@@ -1,0 +1,63 @@
+#backgroundmember {
+    width:80% ;
+    margin: 8% auto ; 
+    border: 1px dotted #4F4F4F;
+}
+.front_pic_member {
+    width:50% ;
+    margin: auto 25%;
+}
+#member01 {
+    width:70% ;
+    margin: auto 10% 5% 10% ;
+    padding: 5% 5% ; 
+}
+#member01_1 {
+    font-family:Microsoft JhengHei;
+    font-size: 20px;
+    background-color: white;
+    opacity: 0.8;
+    padding: 5% 5% ;
+}
+
+#member02 {
+    width:70% ;
+    margin: auto 10% 5% 10% ;
+    padding: 5% 5% ; 
+}
+#member02_1 {
+    font-family:Microsoft JhengHei;
+    font-size: 20px;
+    background-color: white;
+    opacity: 0.8;
+    padding: 5% 5% ;
+}
+
+#member03 {
+    width:70% ;
+    margin: auto 10% 5% 10% ;
+    padding: 5% 5% ; 
+}
+#member03_1 {
+    font-family:Microsoft JhengHei;
+    font-size: 20px;
+    background-color: white;
+    opacity: 0.8;
+    padding: 5% 5% ;
+}
+a{
+    text-decoration:none!important;
+}
+#pic_go {
+
+    float: left;
+    font-size: 20px;
+    color:black;
+    -webkit-transition: all .3s ease-out ;
+}
+#pic_go:hover {
+
+    float: left;
+    font-size: 40px;
+    color:red;
+}

@@ -1,0 +1,89 @@
+.regis_atuo_string {
+    background-color:white ; 
+    position: absolute ; 
+    border-radius:5em;
+    height: 50px;
+    right:100px ;
+}
+
+.regis_atuo_string_middle_go {
+    animation:mymove_middle_go 3s infinite;
+    width: 250px;
+}
+
+@keyframes mymove_middle_go
+{
+0%   {right:100px;}
+25%  {right:150px;}
+75%  {right:50px;}
+100% {right:100px;}
+}
+
+.regis_atuo_string_long {
+    animation:mymove_long 3s infinite;
+    width: 300px;
+}
+
+@keyframes mymove_long
+{
+0%   {right:100px;}
+50%  {right:0px;}
+100% {right:100px;}
+}
+
+.regis_atuo_string_middle_ba {
+    animation:mymove_middle_ba 3s infinite;
+    width: 250px;
+}
+
+@keyframes mymove_middle_ba
+{
+0%   {right:100px;}
+25%  {right:50px;}
+75%  {right:150px;}
+100% {right:100px;}
+}
+
+.regis_atuo_string_short {
+    animation:mymove_short 3s infinite;
+    width: 200px;
+}
+
+@keyframes mymove_short
+{
+0%   {right:100px;}
+50%  {right:180px;}
+100% {right:100px;}
+}
+
+#atuo_string_01 {
+    top: 10% ; 
+}
+
+#atuo_string_02 {
+    top: 20% ; 
+}
+
+#atuo_string_03 {
+    top: 30% ; 
+}
+
+#atuo_string_04 {
+    top: 40% ; 
+}
+
+#atuo_string_05 {
+    top: 50% ; 
+}
+
+#atuo_string_06 {
+    top: 60% ; 
+}
+
+#atuo_string_07 {
+    top: 70% ; 
+}
+
+#atuo_string_08 {
+    top: 80% ; 
+}

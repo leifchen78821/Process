@@ -1,0 +1,107 @@
+#back_index {
+    font-family:Microsoft JhengHei;
+    font-size:1.2cm;
+    width:70%;
+    height:600px;
+    border-radius:10em;
+    background-color:#C0C0C0;
+    margin:0 auto;
+}
+
+#circle {
+    width:400px;
+    height:400px;
+    border-radius:99em;
+    background-color:white;
+    position: absolute ; 
+    top: 10% ; 
+    right: 20% ;
+}
+
+#long01 {
+    border-radius:10em;
+    background-color:#A9A9A9 ; 
+    position: absolute ; 
+    height:30px ; 
+    width:50px ; 
+    top: 52% ; 
+    left: -410px ;
+    -webkit-transition: all 1s ease-out ;
+}
+
+#long02 {
+    border-radius:10em;
+    background-color:#778899 ; 
+    position: absolute ; 
+    height:40px ; 
+    width:100px ; 
+    top: 70% ; 
+    left: -400px ;
+    -webkit-transition: all 1s ease-out ;
+}
+
+#long03 {
+    border-radius:10em;
+    background-color:#D3D3D3 ; 
+    position: absolute ; 
+    height:10px ; 
+    width:70px ; 
+    top: 73% ; 
+    left: -380px ;
+    z-index:100 ;
+    -webkit-transition: all 1s ease-out ;
+}
+
+#circle:hover #long01 {
+    border-radius:10em;
+    background-color:#A9A9A9 ; 
+    position: absolute ; 
+    height:30px ; 
+    width:300px ; 
+    top: 52% ; 
+    left: -410px ;
+    -webkit-transition: all 1s ease-out ;
+}
+
+#circle:hover #long02 {
+    border-radius:10em;
+    background-color:#778899 ; 
+    position: absolute ; 
+    height:40px ; 
+    width:500px ; 
+    top: 70% ; 
+    left: -400px ;
+    -webkit-transition: all 1s ease-out ;
+}
+
+#circle:hover #long03 {
+    border-radius:10em;
+    background-color:#D3D3D3 ; 
+    position: absolute ; 
+    height:10px ; 
+    width:400px ; 
+    top: 73% ; 
+    left: -380px ;
+    z-index:100 ;
+    -webkit-transition: all 1s ease-out ;
+}
+
+.but {
+    height:50px ; 
+    width:60px ;
+    border-radius:99%;
+}
+
+#circle_regis {
+    padding-left: 70px;
+    width: 400px;
+    height: 600px;
+    border-radius:20%;
+    background-color:white;
+    position: absolute ; 
+    top: 13% ; 
+    right: 43% ;
+    color: #5E5E82; 
+    font-size:0.5cm ;
+    text-align : left;
+}

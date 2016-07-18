@@ -1,0 +1,121 @@
+body {
+    word-wrap : break-word;
+}
+
+#preview_item {
+    font-family:Microsoft JhengHei;
+    font-size:24px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+#preview_item_button_left {
+    position: absolute;
+    z-index:999;
+    top:4% ; 
+    left: 30% ; 
+}
+#preview_item_button_right {
+    position: absolute;
+    z-index:999;
+    top:4% ; 
+    right: 30% ; 
+}
+#backnumber {
+    position: absolute;
+    width: 10%;
+    top: 10%;
+    left:10%;
+    z-index:1 ;
+}
+#whiteback {
+    position: absolute;
+    width:100%;
+    z-index:99 ;
+}
+#background {
+    font-family:Microsoft JhengHei;
+    width:90%;
+    margin: 1% 5% 3% 5%;
+    background-color: #C9C9C9;
+    border-width:3px; border-color:#939699;
+    border-style: outset;
+    z-index:100 ;
+}
+#title {
+    width: 90%;
+    
+    font-family:Microsoft JhengHei;
+    font-size:30px;
+    text-align: center;
+    margin: 5% auto;
+}
+#image {
+    width: 60%;
+    margin: 0 auto 5% auto ;
+}
+#image img {
+    width: 100%;
+}
+#article_inside {
+    width: 80%;
+    font-size:20px;
+    margin: 0 auto 5% auto ;
+}
+#map_address {
+    text-align: center ; 
+    float: left;
+    width:30%;
+    margin: 0 5% 10% 5%;
+    font-size:20px;
+}
+
+.map_address_title {
+    animation:color_change 1s infinite;
+    font-size:24px;
+}
+@keyframes color_change {
+0%   {color: red;}
+50%  {color: blue;}
+100% {color: red;}
+}
+
+.lastpage {
+    position: absolute;
+    left:1%;
+    z-index: 1000;
+    width: 7%;
+}
+
+.message {
+    margin: 2% auto 2% auto;
+    background-color: #C9C9C9;
+    border-width:3px; 
+    border-color:#939699;
+    border-radius:10px;
+    border-style: outset;
+    font-family:Microsoft JhengHei;
+    width:85%;
+    height:100px ;
+}
+
+#message_send {
+    margin: 0 auto 2% auto ;
+    background-color: #C9C9C9;
+    border-width:3px; border-color:#939699;
+    border-radius:10px;
+    border-style: outset;
+    font-family:Microsoft JhengHei;
+    width:85%;
+    height:200px ;
+}
+#message_send_in {
+    margin: auto ;
+    width:85%;
+    height:100px ;
+}
+#send_img{
+    /*background:url('img/send.png') no-repeat ;*/
+    width: 10%;
+    margin : 1% 0 2% 85%;
+}

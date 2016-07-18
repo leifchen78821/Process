@@ -1,0 +1,304 @@
+#menu_background {
+    font-family:Microsoft JhengHei;
+    font-size:1.2cm;
+    text-align:center ; 
+    background-color:#D0D1D2 ; 
+    height:95% ; 
+    width:90% ; 
+    position: absolute ; 
+    border-radius:30%;
+    left: 5%;
+}
+
+/**/
+
+#menu_left{
+    text-align:center ; 
+    background-color:#C0C0C0 ; 
+    position: absolute ; 
+    height:60% ; 
+    width:60% ; 
+    top: 10% ; 
+    left: 50px ;
+    border-radius:5em;
+    z-index:1 ;
+    -webkit-transition: all 1s ease-out ;
+}
+
+#menu_left:hover {
+    text-align:center ; 
+    background-color:#AFC0E9 ; 
+    position: absolute ; 
+    height:60% ; 
+    width:60% ; 
+    top: 20% ; 
+    left: 50px ;
+    border-radius:99%;
+    z-index:100 ;
+    -webkit-transition: all 1s ease-out ;
+}
+
+/**/
+
+#menu_right {
+    text-align:center ; 
+    background-color:#C0C0C0 ; 
+    position: absolute ; 
+    height:60% ; 
+    width:60%  ; 
+    top: 30% ; 
+    right: 50px ;
+    border-radius:5em;
+    z-index:1 ;
+    -webkit-transition: all 1s ease-out ;
+}
+
+#menu_right:hover {
+    text-align:center ; 
+    background-color:#FFA9A9 ; 
+    position: absolute ; 
+    height:60% ; 
+    width:60%  ; 
+    top: 20% ; 
+    right: 50px ;
+    border-radius:99%;
+    z-index:100 ;
+    -webkit-transition: all 1s ease-out ;
+}
+
+/**/
+
+#menu_left_img_1 {
+    background-color:white ; 
+    position: absolute ; 
+    height:10px ; 
+    width:30px ; 
+    top: 55% ; 
+    left: -15px ;
+    border-radius:5em;
+    -webkit-transition: all 1s ease-out ;
+}
+
+#menu_left_img_2 {
+    background-color:white ; 
+    position: absolute ; 
+    height:20px ; 
+    width:50px ; 
+    top: 60% ; 
+    left: -15px ;
+    border-radius:5em;
+    -webkit-transition: all 1s ease-out ;
+}
+
+#menu_left_img_3 {
+    background-color:white ; 
+    position: absolute ; 
+    height:34px ; 
+    width:120px ; 
+    top: 67% ; 
+    left: -15px ;
+    border-radius:5em;
+    -webkit-transition: all 1s ease-out ;
+}
+
+#menu_left_img_4 {
+    background-color:white ; 
+    position: absolute ; 
+    height:28px ; 
+    width:70px ; 
+    top: 77% ; 
+    left: -15px ;
+    border-radius:5em;
+    -webkit-transition: all 1s ease-out ;
+}
+
+#menu_left_img_5 {
+    background-color:white ; 
+    position: absolute ; 
+    height:13px ; 
+    width:170px ; 
+    top: 85% ; 
+    left: -15px ;
+    border-radius:5em;
+    -webkit-transition: all 1s ease-out ;
+}
+
+#menu_left:hover #menu_left_img_1 {
+    background-color:#94B2D3 ; 
+    position: absolute ; 
+    height:10px ; 
+    width:200px ; 
+    top: 74% ; 
+    left: -15px ;
+    border-radius:5em;
+    z-index:100 ;
+    -webkit-transition: all 1s ease-out ;
+}
+
+#menu_left:hover #menu_left_img_2 {
+    background-color:#5697E0 ; 
+    position: absolute ; 
+    height:20px ; 
+    width:230px ; 
+    top: 75% ; 
+    left: 15px ;
+    border-radius:5em;
+    -webkit-transition: all 1s ease-out ;
+}
+
+#menu_left:hover #menu_left_img_3 {
+    background-color:#7D96D1 ; 
+    position: absolute ; 
+    height:34px ; 
+    width:125px ; 
+    top: 78% ; 
+    left: 35px ;
+    border-radius:5em;
+    -webkit-transition: all 1s ease-out ;
+}
+
+#menu_left:hover #menu_left_img_4 {
+    background-color:#94B2D3 ; 
+    position: absolute ; 
+    height:28px ; 
+    width:180px ; 
+    top: 81% ; 
+    left: 0px ;
+    border-radius:5em;
+    z-index:100 ;
+    -webkit-transition: all 1s ease-out ;
+}
+
+#menu_left:hover #menu_left_img_5 {
+    background-color:#5697E0 ; 
+    position: absolute ; 
+    height:13px ; 
+    width:350px ; 
+    top: 85% ; 
+    left: -15px ;
+    border-radius:5em;
+    z-index:101 ;
+    -webkit-transition: all 1s ease-out ;
+}
+
+#menu_right_img_1 {
+    background-color:white ; 
+    position: absolute ; 
+    height:10px ; 
+    width:30px ; 
+    top: 55% ; 
+    right: -15px ;
+    border-radius:5em;
+    -webkit-transition: all 1s ease-out ;
+}
+
+#menu_right_img_2 {
+    background-color:white ; 
+    position: absolute ; 
+    height:20px ; 
+    width:50px ; 
+    top: 60% ; 
+    right: -15px ;
+    border-radius:5em;
+    -webkit-transition: all 1s ease-out ;
+}
+
+#menu_right_img_3 {
+    background-color:white ; 
+    position: absolute ; 
+    height:34px ; 
+    width:120px ; 
+    top: 67% ; 
+    right: -15px ;
+    border-radius:5em;
+    -webkit-transition: all 1s ease-out ;
+}
+
+#menu_right_img_4 {
+    background-color:white ; 
+    position: absolute ; 
+    height:28px ; 
+    width:70px ; 
+    top: 77% ; 
+    right: -15px ;
+    border-radius:5em;
+    -webkit-transition: all 1s ease-out ;
+}
+
+#menu_right_img_5 {
+    background-color:white ; 
+    position: absolute ; 
+    height:13px ; 
+    width:170px ; 
+    top: 85% ; 
+    right: -15px ;
+    border-radius:5em;
+    -webkit-transition: all 1s ease-out ;
+}
+
+#menu_right:hover #menu_right_img_1 {
+    background-color:#FF5D5D ; 
+    position: absolute ; 
+    height:10px ; 
+    width:200px ; 
+    top: 74% ; 
+    right: -15px ;
+    border-radius:5em;
+    z-index:100 ;
+    -webkit-transition: all 1s ease-out ;
+}
+
+#menu_right:hover #menu_right_img_2 {
+    background-color:#FF2E2E ; 
+    position: absolute ; 
+    height:20px ; 
+    width:230px ; 
+    top: 75% ; 
+    right: 15px ;
+    border-radius:5em;
+    -webkit-transition: all 1s ease-out ;
+}
+
+#menu_right:hover #menu_right_img_3 {
+    background-color:#FF0000 ; 
+    position: absolute ; 
+    height:34px ; 
+    width:125px ; 
+    top: 78% ; 
+    right: 35px ;
+    border-radius:5em;
+    -webkit-transition: all 1s ease-out ;
+}
+
+#menu_right:hover #menu_right_img_4 {
+    background-color:#FF5D5D ; 
+    position: absolute ; 
+    height:28px ; 
+    width:180px ; 
+    top: 81% ; 
+    right: 0px ;
+    border-radius:5em;
+    z-index:100 ;
+    -webkit-transition: all 1s ease-out ;
+}
+
+#menu_right:hover #menu_right_img_5 {
+    background-color:#FF2E2E ; 
+    position: absolute ; 
+    height:13px ; 
+    width:350px ; 
+    top: 85% ; 
+    right: -15px ;
+    border-radius:5em;
+    z-index:101 ;
+    -webkit-transition: all 1s ease-out ;
+}
+
+.button_index {
+    font-family:Microsoft JhengHei;
+    font-size:1cm;
+    height:150px ; 
+    width:400px ; 
+    background-color:white ;  
+    border-radius:5em;
+}
