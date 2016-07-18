@@ -32,9 +32,8 @@ header("Content-Type:text/html; charset=utf-8");
       if($check != 1)
       {
         echo "<script language='JavaScript'>";
-  	    echo "alert('帳號或密碼輸入有誤');location.href='login.php';";
+  	    echo "alert('帳號或密碼輸入有誤');";
         echo "</script>";
-        exit();
       }
       
       mysql_free_result($result);
@@ -45,12 +44,6 @@ header("Content-Type:text/html; charset=utf-8");
 if (isset($_POST["btnRegis"]))
 {
 	header("Location: registration.php");
-	exit();
-}
-
-if (isset($_POST["btnReset"]))
-{
-	header("Location: login.php");
 	exit();
 }
 
@@ -75,7 +68,7 @@ if (isset($_POST["btnReset"]))
         <div id="long02" style=""></div>
         <div id="long03" style=""></div>
         <div style="color: #778899 ; top: 52% ; left: -410px ;"><br>帳號</div>
-        <div valign="baseline"><input type="text" name="txtUserName" id="txtUserName" /></div>
+        <div valign="baseline"><input type="text" name="txtUserName" id="txtUserName" value="<?php echo $sUserName ;?>" /></div>
         <div style="color: #778899 ; top: 52% ; left: -410px ;"><br>密碼</div>
         <div valign="baseline"><input type="password" name="txtPassword" id="txtPassword" />
         </div>
